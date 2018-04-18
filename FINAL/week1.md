@@ -7,3 +7,4 @@
     
 >vim mutillidae/classes/MySQLHandler.php
 ![DVWA check](picture/Mutillidae.PNG)
+![DVWA check](picture/Mutillidaephp.PNG)
