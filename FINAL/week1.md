@@ -1,8 +1,9 @@
 #### DVWA Setup Check 
 ![DVWA check](picture/DVWASC.PNG)
 #### 安裝 Mutillidae
-解壓縮指令
 
+解壓縮指令
+>參考教學[https://www.qa-knowhow.com/?p=1651](https://www.qa-knowhow.com/?p=1651)
     unzip LATEST-mutillidae-2.6.60.zip
 
 編輯MySQLHandler.php
@@ -13,9 +14,7 @@
 [連上 http://120.114.135.21/mutillidae/](http://120.114.135.21/mutillidae) 
 ![DVWA check](picture/Mutillidaephp.PNG)<br>
 #### 安裝 bwapp
->參考教學[https://penguingaruda.blogspot.tw/2017/04/how-to-install-bwapp-in-ubuntu-server_13.html
-](https://penguingaruda.blogspot.tw/2017/04/how-to-install-bwapp-in-ubuntu-server_13.html
-)
+>參考教學[https://penguingaruda.blogspot.tw/2017/04/how-to-install-bwapp-in-ubuntu-server_13.html](https://penguingaruda.blogspot.tw/2017/04/how-to-install-bwapp-in-ubuntu-server_13.html)
 
     vim /bWAPP/admin/settings.php
 
