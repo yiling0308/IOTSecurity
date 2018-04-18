@@ -4,9 +4,9 @@
 解壓縮指令
 
     unzip LATEST-mutillidae-2.6.60.zip
-    
+
 編輯MySQLHandler.php
-    
+
     vim mutillidae/classes/MySQLHandler.php
 
 ![DVWA check](picture/Mutillidae.PNG)<br>
@@ -16,6 +16,7 @@
 >參考教學[https://penguingaruda.blogspot.tw/2017/04/how-to-install-bwapp-in-ubuntu-server_13.html
 ](https://penguingaruda.blogspot.tw/2017/04/how-to-install-bwapp-in-ubuntu-server_13.html
 )
+
     vim /bWAPP/admin/settings.php
 
 ![DVWA check](picture/bwappset.PNG)<br>
