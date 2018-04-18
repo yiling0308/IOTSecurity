@@ -20,7 +20,7 @@ cat access.log
     sudo  service apache2 reload
     sudo apachectl -M | grep --color security2
   
-![install](picture/螢幕截圖2018-04-12 15-22-01.png)<br>
+![install](picture/)<br>
 檢視ModSecurity default rules
 修改設定檔
   
