@@ -1,1 +1,1 @@
-![DVWA check](../picture/DVWA Setup Check.PNG)
+![DVWA check](picture/DVWASC.PNG)
