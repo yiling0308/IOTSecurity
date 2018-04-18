@@ -26,5 +26,5 @@
 # 安裝 NodeGoat
 ![NodeGoat](picture/benefits.PNG)<br>
 
-# 安裝 NodeGoat
+# 安裝 docker
 ![docker](picture/docker.PNG)<br>
