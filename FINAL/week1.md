@@ -22,3 +22,6 @@
 ![DVWA check](picture/bwappset.PNG)<br>
 [連上 http://120.114.135.21/bWAPP/portal.php](http://120.114.135.21/bWAPP/portal.php)
 ![DVWA check](picture/bwappfin.PNG)<br>
+
+#### 安裝 NodeGoat
+![NodeGoat](picture/benefits.PNG)<br>
