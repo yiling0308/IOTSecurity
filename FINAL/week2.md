@@ -34,10 +34,12 @@ cat access.log
     sudo vim /etc/apache2/mods-enabled/security2.conf
 
 ![sed](picture/vimsecurity.png)<br>
-檢視ModSecurity default rules
-修改設定檔
-  
-  sudo vim /etc/apache2/mods-enabled/security2.conf    
+
+    sudo service apache2 reload
+    sudo cp /usr/share/modsecurity-crs/base_rules/modsecurity_crs_41_sql_injection_attacks.conf /usr/share/modsecurity-crs/activated_rules/
+    
+![cp](picture/cp.png)<br>
 
 #### Web RE-Attacks漏洞測試
-  
+!['or'1'=='1'](picture/injc.PNG)<br>
+![inc](picture/injc.PNG)<br>
