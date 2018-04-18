@@ -9,9 +9,18 @@ File Inclusion
 #### 檢視apache web server的log檔
 cat access.log
 ![showpasswdlog](picture/showpasswd.png)<br>
-cat access.log
-cat error.log
 #### 安裝modsecurity
+
+    sudo apt-get update
+    sudo apt-get install libapache2-modsecurity -y
+  
+![update](picture/update.png)<br>
+![installlibapache](picture/installlibapache.png)<br>
+
+    sudo  service apache2 reload
+    sudo apachectl -M | grep --color security2
+  
+![install](picture/螢幕截圖2018-04-12 15-22-01.png)<br>
 檢視ModSecurity default rules
 修改設定檔
   
