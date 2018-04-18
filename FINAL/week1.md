@@ -1,1 +1,1 @@
-![Alt text](../img.jpg)
+![DVWA check](../picture/DVWA Setup Check.PNG)
