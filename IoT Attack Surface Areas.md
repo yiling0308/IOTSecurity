@@ -1,6 +1,4 @@
-# IoT Attack Surface Areas
-
-## The OWASP IoT Attack Surface Areas (DRAFT) are as follows:
+# The OWASP IoT Attack Surface Areas (DRAFT) are as follows:
 
 >> ## Ecosystem Access Control
 >- Implicit trust between components
