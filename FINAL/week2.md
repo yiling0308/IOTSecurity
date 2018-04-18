@@ -20,7 +20,20 @@ cat access.log
     sudo  service apache2 reload
     sudo apachectl -M | grep --color security2
   
-![install](picture/)<br>
+![install2](picture/install2.png)<br>
+
+    sudo mv /etc/modsecurity/modsecurity.conf-recommended /etc/modsecurity/modsecurity.conf
+    
+![mv](picture/mv.png)<br>
+
+    sudo sed -i "s/SecRuleEngine DetectionOnly/SecRuleEngine On/" /etc/modsecurity/modsecurity.conf
+    sudo sed -i "s/SecResponseBodyAccess On/SecResponseBodyAccess Off/" /etc/modsecurity/modsecurity.conf
+    
+![sed](picture/sed.png)<br>
+
+    sudo vim /etc/apache2/mods-enabled/security2.conf
+
+![sed](picture/vimsecurity.png)<br>
 檢視ModSecurity default rules
 修改設定檔
   
