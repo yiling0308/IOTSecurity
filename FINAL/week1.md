@@ -9,3 +9,8 @@
 ![DVWA check](picture/Mutillidae.PNG)<br>
 >[連上 http://120.114.135.21/mutillidae/](http://120.114.135.21/mutillidae)<br> 
 ![DVWA check](picture/Mutillidaephp.PNG)<br>
+#### 安裝 bwapp
+>vim /bWAPP/admin/settings.php<br>
+![DVWA check](picture/bwappset.PNG)<br>
+>[連上 http://120.114.135.21/bWAPP/portal.php](http://120.114.135.21/bWAPP/portal.php)<br> 
+![DVWA check](picture/bwappfin.PNG)<br>
