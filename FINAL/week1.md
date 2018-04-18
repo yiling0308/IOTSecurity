@@ -4,6 +4,7 @@
 
 解壓縮指令
 >參考教學[https://www.qa-knowhow.com/?p=1651](https://www.qa-knowhow.com/?p=1651)
+
     unzip LATEST-mutillidae-2.6.60.zip
 
 編輯MySQLHandler.php
