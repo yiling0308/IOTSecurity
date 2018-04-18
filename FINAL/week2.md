@@ -42,4 +42,4 @@ cat access.log
 
 #### Web RE-Attacks漏洞測試
 !['or'1'=='1'](picture/injc.PNG)<br>
-![inc](picture/injc.PNG)<br>
+![inc](picture/Forbidden.PNG)<br>
