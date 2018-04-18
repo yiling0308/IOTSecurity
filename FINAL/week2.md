@@ -35,8 +35,8 @@ cat access.log
 
 ![sed](picture/vimsecurity.png)<br>
 
-    sudo service apache2 reload
     sudo cp /usr/share/modsecurity-crs/base_rules/modsecurity_crs_41_sql_injection_attacks.conf /usr/share/modsecurity-crs/activated_rules/
+    sudo service apache2 reload
     
 ![cp](picture/cp.png)<br>
 
