@@ -1,14 +1,14 @@
 ####Web Attacks漏洞測試
 Command Injection
-![Command Injection](picture/commandinjection.PNG)
+![Command Injection](picture/commandinjection.png)
 SQL Injection
-![SQL Injection](picture/sqlinjection.PNG)
-![SQL Injection2](picture/sqlinjection2.PNG)
+![SQL Injection](picture/sqlinjection.png)
+![SQL Injection2](picture/sqlinjection2.png)
 File Inclusion
-![File Inclusion](picture/fileinclusion.PNG)
+![File Inclusion](picture/fileinclusion.png)
 ####檢視apache web server的log檔
 cat access.log
-![showpasswdlog](picture/showpasswd.PNG)
+![showpasswdlog](picture/showpasswd.png)
 cat access.log
 cat error.log
 ####安裝modsecurity
