@@ -87,13 +87,13 @@
 >- Location leaked (地點洩漏)
 
 >> ## Update Mechanism (更新機制)	
->- Update sent without encryption
->- Updates not signed
->- Update location writable
->- Update verification
->- Malicious update
->- Missing update mechanism
->- No manual update mechanism
+>- Update sent without encryption (發送沒有加密的更新)
+>- Updates not signed (沒有簽名的更新)
+>- Update location writable (更新檔案儲存位置可改寫)
+>- Update verification (更新驗證)
+>- Malicious update (惡意更新)
+>- Missing update mechanism (缺少更新機制)
+>- No manual update mechanism (沒有手動更新機制)
 
 >> ## Mobile Application (行動應用程式)
 >- Implicitly trusted by device or cloud
