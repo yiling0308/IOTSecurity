@@ -18,7 +18,8 @@
 ![elasticsearchmsi](image/elasticsearchmsi2.png)
 ![elasticsearchmsi](image/elasticsearchmsi3.png)
 ![elasticsearchmsi](image/elasticsearchmsi4.png)
-![elasticsearchmsi](image/elasticsearchmsi5.png)    </br>
+![elasticsearchmsi](image/elasticsearchmsi5.png)                                 
+
 > ## 安裝[Kibana](https://www.elastic.co/downloads/kibana) (WINDOWS)
 ### 進行解壓縮後將資料夾名稱改為 `Kibana` 並放置在C:\Program Files內
 ### 修改C:\Program Files\kibana\bin `kibana.yml` 檔
