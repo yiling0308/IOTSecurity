@@ -96,15 +96,15 @@
 >- No manual update mechanism (沒有手動更新機制)
 
 >> ## Mobile Application (行動應用程式)
->- Implicitly trusted by device or cloud
->- Username enumeration
->- Account lockout
->- Known default credentials
->- Weak passwords
->- Insecure data storage
->- Transport encryption
->- Insecure password recovery mechanism
->- Two-factor authentication
+>- Implicitly trusted by device or cloud (設備或雲端的絕對信任)
+>- Username enumeration (使用者名稱的獲取)
+>- Account lockout (帳戶鎖定)
+>- Known default credentials (預設驗證機密性資料)
+>- Weak passwords (脆弱的密碼)
+>- Insecure password recovery mechanism (不安全的密碼恢復機制)
+>- Transport encryption (傳輸加密)
+>- Insecure password recovery mechanism (不安全的密碼恢復機制)
+>- Two-factor authentication (雙因素認證)
 
 >> ## Vendor Backend APIs (供應商後端APIs)
 >- Inherent trust of cloud or mobile application
