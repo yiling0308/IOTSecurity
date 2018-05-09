@@ -48,7 +48,7 @@
 
 ![winlogbeat](image/winlogbeat9200.png)
 ### 開啟網頁，在網頁輸入網址 `http://localhost:9200/winlogbeat-*`     
-![winlogbeat](image/winlogbeat9200web.png)
+![winlogbeat](image/winlogbea9200web.png)
 
     .\winlogbeat setup --dashboards
     Start-Service winlogbeat
