@@ -13,12 +13,12 @@
 >- Encryption keys (加密密鑰)
 
 >> ## Device Physical Interfaces (物理介面設備)
->- Firmware extraction
->- User CLI
->- Admin CLI
->- Privilege escalation
->- Reset to insecure state
->- Removal of storage media
+>- Firmware extraction (韌體拔出)
+>- User CLI (使用者命令列)
+>- Admin CLI (管理員命令列)
+>- Privilege escalation (特權升級)
+>- Reset to insecure state (重置為不安全狀態)
+>- Removal of storage media (移除儲存裝置)
 
 >> ## Device Web Interface (網路介面設備)
 >- SQL injection
