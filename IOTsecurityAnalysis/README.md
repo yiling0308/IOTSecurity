@@ -4,8 +4,7 @@
 `檔案總管 > 本機(右鍵) > 內容 > 進階系統設定 > 環境變數(N)... > 找到系統變數(Path) > 編輯(I)... > 新增Java路徑`
 ![computer content](image/computer.png)
 ![JAVA setting](image/javasetting.png)
-> ## 安裝elasticsearch [ZIP]
-### 下載[elasticsearch](https://www.elastic.co/downloads/elasticsearch) 
+> ## 安裝[elasticsearch](https://www.elastic.co/downloads/elasticsearch) [ZIP]
 ### 進行解壓縮後將資料夾名稱改為 `elasticsearch` 並放置在C:\Program Files內
 ### 修改C:\Program Files\elasticsearch\config\ `elasticsearch.yml` 檔
     network.host: 0.0.0.0
@@ -14,3 +13,10 @@
 ![batfile](image/elasticsearchbatfile.png)
 ### 開啟網頁，在網頁輸入網址 `http://localhost:9200/`
 ![localhost9200](image/localhost9200.png)
+> ## 安裝[Kibana](https://www.elastic.co/downloads/kibana) (WINDOWS)
+### 進行解壓縮後將資料夾名稱改為 `Kibana` 並放置在C:\Program Files內
+### 修改C:\Program Files\kibana\bin `kibana.yml` 檔
+    server.host: "0.0.0.0"
+![kibanayml](image/kibanayml.png)
+### 執行C:\Program Files\kibana\bin `kibana.bat` 檔
+![kibanabat](image/kibanabat.png)
