@@ -13,6 +13,12 @@
 ![batfile](image/elasticsearchbatfile.png)
 ### 開啟網頁，在網頁輸入網址 `http://localhost:9200/`
 ![localhost9200](image/localhost9200.png)
+> ⚠若elasticsearch無法正確執行，請使用[msi安裝方法](https://www.elastic.co/downloads/elasticsearch) [MSI (BETA)]
+![elasticsearchmsi](image/elasticsearchmsi1.png)
+![elasticsearchmsi](image/elasticsearchmsi2.png)
+![elasticsearchmsi](image/elasticsearchmsi3.png)
+![elasticsearchmsi](image/elasticsearchmsi4.png)
+![elasticsearchmsi](image/elasticsearchmsi5.png)
 > ## 安裝[Kibana](https://www.elastic.co/downloads/kibana) (WINDOWS)
 ### 進行解壓縮後將資料夾名稱改為 `Kibana` 並放置在C:\Program Files內
 ### 修改C:\Program Files\kibana\bin `kibana.yml` 檔
