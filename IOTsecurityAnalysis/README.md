@@ -32,7 +32,7 @@
 ![kibana5601](image/kibana5601.png)
 > ## 安裝[Winlogbeat](https://www.elastic.co/downloads/beats/winlogbeat) (WINDOWS 64-BIT)
 ### 進行解壓縮後將資料夾名稱改為 `winlogbeat` 並放置在C:\Program Files內
->> 使用powershell`(以系統管理員身分執行)`安裝    
+>> ## 使用powershell`(以系統管理員身分執行)`安裝    
 ![powershell](image/powershell1.png)
 
     Set-ExecutionPolicy RemoteSigned (y)
@@ -54,3 +54,5 @@
     Start-Service winlogbeat
     
 ![winlogbeat](image/winlogbeatstart.png)
+### 開啟kibana網頁，在網頁輸入網址 `http://localhost:5601/app/kibana#/discover?_g=()`  可以看到資料傳輸成功
+> ## 安裝 logstash@Ubuntu MATE (64-bit)
