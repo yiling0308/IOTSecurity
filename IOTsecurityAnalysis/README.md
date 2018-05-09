@@ -57,3 +57,60 @@
 ### 在網頁輸入網址 `http://localhost:5601/app/kibana#/discover?_g=()` 可看到資料傳輸成功
 ![winlogbeat](image/kibana5601after.png)
 > ## 安裝 logstash@Ubuntu MATE (64-bit)
+
+    sudo apt-get install openjdk-8-jre
+    sudo apt-get install grok
+    curl -L -O https://artifacts.elastic.co/downloads/logstash/logstash-5.2.0.zip
+    unzip logstash-5.2.0.zip
+    sudo mv logstash-5.2.0/ /opt
+    cd /opt 
+    sudo mv logstash-5.2.0/ logstash
+
+    sudo apt-get install ant texinfo openjdk-8-jdk build-essential
+    git clone https://github.com/jnr/jffi.git
+    cd jffi
+    ant jar
+    sudo cp build/jni/libjffi-1.2.so /opt/logstash/vendor/jruby/lib/jni/arm-Linux
+
+    sudo vim config/jvm.options
+    
+![logstash](image/jvmoptions.png)
+    cd /opt/logstash
+    sudo vim apache-filter.conf 
+### apache-filter.conf設定黨內容
+    
+    input {
+      file {
+        path => "/var/log/apache2/access.log"
+        start_position => "beginning"
+      }
+    }
+    
+    filter {
+      if [path] =~ "access" {
+        mutate { replace => { "type" => "apache_access" } }
+        grok {
+          match => { "message" => "%{COMBINEDAPACHELOG}" }
+        }
+      }
+      date {
+        match => [ "timestamp" , "dd/MMM/yyyy:HH:mm:ss Z" ]
+      }
+    }
+    
+    output {
+      elasticsearch {
+        hosts => ["120.114.135.24:9200"]
+      }
+      stdout { codec => rubydebug }
+    }    
+
+![logstash](image/apache-filterconf.png)
+
+    sudo bin/logstash -f apache-filter.conf
+    
+![logstash](image/-fapache-filter.png) 
+### 在網頁輸入網址 `http://120.114.135.24:9200/_search?q=DVWA` 
+![logstash](image/searchDVWA9200.png) 
+### 在網頁輸入網址 `http://localhost:5601/app/kibana#/discover?_g=()` 
+![logstash](image/5601finish.png) 
