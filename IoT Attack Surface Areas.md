@@ -64,21 +64,21 @@
 >- Inability to wipe device (無法移除設備)
 
 >> ## Local Data Storage (本地數據存儲)
->- Unencrypted data
->- Data encrypted with discovered keys
->- Lack of data integrity checks
+>- Unencrypted data (未加密的數據)
+>- Data encrypted with discovered keys (資料加密與暴露的鑰匙)
+>- Lack of data integrity checks (缺乏數據完整性的檢查)
 
 >> ## Cloud Web Interface (網路雲端介面)
->- SQL injection
->- Cross-site scripting
->- Cross-site Request Forgery
->- Username enumeration
->- Weak passwords
->- Account lockout
->- Known default credentials
->- Transport encryption
->- Insecure password recovery mechanism
->- Two-factor authentication
+>- SQL injection (SQL注入式攻擊、SQL資料隱碼攻擊)
+>- Cross-site scripting (跨網站指令碼)
+>- Cross-site Request Forgery (跨網站的偽造要求)
+>- Username enumeration (使用者名稱的獲取)
+>- Weak passwords (脆弱的密碼)
+>- Account lockout (帳戶鎖定)
+>- Known default credentials (預設驗證機密性資料)
+>- Transport encryption (傳輸加密)
+>- Insecure password recovery mechanism (不安全的密碼恢復機制)
+>- Two-factor authentication (雙因素認證)
 
 >> ## hird-party Backend APIs (第三方後端APIs)
 >- Unencrypted PII sent
