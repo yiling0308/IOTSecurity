@@ -54,5 +54,6 @@
     Start-Service winlogbeat
     
 ![winlogbeat](image/winlogbeatstart.png)
-### 開啟kibana網頁，在網頁輸入網址 `http://localhost:5601/app/kibana#/discover?_g=()`  可以看到資料傳輸成功
+### 在網頁輸入網址 `http://localhost:5601/app/kibana#/discover?_g=()` 可看到資料傳輸成功
+![winlogbeat](image/kibana5601after.png)
 > ## 安裝 logstash@Ubuntu MATE (64-bit)
