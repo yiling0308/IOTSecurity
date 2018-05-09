@@ -20,3 +20,5 @@
 ![kibanayml](image/kibanayml.png)
 ### 執行C:\Program Files\kibana\bin `kibana.bat` 檔
 ![kibanabat](image/kibanabat.png)
+### 開啟網頁，在網頁輸入網址 `http://localhost:5601/`
+![kibana5601](image/kibana5601.png)
