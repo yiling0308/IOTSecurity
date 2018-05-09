@@ -42,3 +42,15 @@
 ![powershell](image/powershell2.png)
 ### 修改C:\Program Files\winlogbeat `winlogbeat.yml` 檔
 ![winlogbeat](image/winlogbeatyml.png)
+
+    .\winlogbeat.exe test config -c .\winlogbeat.yml -e
+    .\winlogbeat setup --template -E output.logstash.enabled=false -E 'output.elasticsearch.hosts=["localhost:9200"]'
+
+![winlogbeat](image/winlogbeat9200.png)
+### 開啟網頁，在網頁輸入網址 `http://localhost:9200/winlogbeat-*`     
+![winlogbeat](image/winlogbeat9200web.png)
+
+    .\winlogbeat setup --dashboards
+    Start-Service winlogbeat
+    
+![winlogbeat](image/winlogbeatstart.png)
