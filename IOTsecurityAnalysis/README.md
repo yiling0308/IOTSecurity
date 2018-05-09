@@ -1,11 +1,16 @@
 # **__安裝伺服器系統__**
+> ## 安裝[JAVA8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (Windows x64)
+### 安裝好以後記得設定環境變數
+`檔案總管 > 本機(右鍵) > 內容 > 進階系統設定 > 環境變數(N)... > 找到系統變數(Path) > 編輯(I)... > 新增Java路徑`
+![computer content](image/computer.png)
+![JAVA setting](image/javasetting.png)
 > ## 安裝elasticsearch [ZIP]
- ### 下載[elasticsearch](https://www.elastic.co/downloads/elasticsearch) 
- ### 進行解壓縮後將資料夾名稱改為 `elasticsearch` 並放置在C:\Program Files內
- ### 修改C:\Program Files\elasticsearch\config\ `elasticsearch.yml` 檔
+### 下載[elasticsearch](https://www.elastic.co/downloads/elasticsearch) 
+### 進行解壓縮後將資料夾名稱改為 `elasticsearch` 並放置在C:\Program Files內
+### 修改C:\Program Files\elasticsearch\config\ `elasticsearch.yml` 檔
     network.host: 0.0.0.0
 ![elasticsearchsetyml](image/elasticsearchsetyml.png)
- ### 執行C:\Program Files\elasticsearch\bin\ `elasticsearch.bat` 檔
+### 執行C:\Program Files\elasticsearch\bin\ `elasticsearch.bat` 檔
 ![batfile](image/elasticsearchbatfile.png)
- ### 開啟網頁，在網頁輸入網址 `http://localhost:9200/`
+### 開啟網頁，在網頁輸入網址 `http://localhost:9200/`
 ![localhost9200](image/localhost9200.png)
