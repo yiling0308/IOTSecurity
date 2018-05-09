@@ -51,17 +51,17 @@
 >- DoS (磁碟作業系統)
 
 >> ## Administrative Interface (管理介面)
->- SQL injection
->- Cross-site scripting
->- Cross-site Request Forgery
->- Username enumeration
->- Weak passwords
->- Account lockout
->- Known default credentials
->- Security/encryption options
->- Logging options
->- Two-factor authentication
->- Inability to wipe device
+>- SQL injection (SQL注入式攻擊、SQL資料隱碼攻擊)
+>- Cross-site scripting (跨網站指令碼)
+>- Cross-site Request Forgery (跨網站的偽造要求)
+>- Username enumeration (使用者名稱的獲取)
+>- Weak passwords (脆弱的密碼)
+>- Account lockout (帳戶鎖定)
+>- Known default credentials (預設驗證機密性資料)
+>- Security/encryption options (安全/加密選項)
+>- Logging options (登陸選項)
+>- Two-factor authentication (雙因素認證)
+>- Inability to wipe device (無法移除設備)
 
 >> ## Local Data Storage (本地數據存儲)
 >- Unencrypted data
