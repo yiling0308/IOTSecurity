@@ -81,10 +81,10 @@
 >- Two-factor authentication (雙因素認證)
 
 >> ## hird-party Backend APIs (第三方後端APIs)
->- Unencrypted PII sent
->- Encrypted PII sent
->- Device information leaked
->- Location leaked
+>- Unencrypted PII sent (發送未加密的個人識別資訊)
+>- Encrypted PII sent (發送加密的個人識別資訊)
+>- Device information leaked (設備資訊洩漏)
+>- Location leaked (地點洩漏)
 
 >> ## Update Mechanism (更新機制)	
 >- Update sent without encryption
