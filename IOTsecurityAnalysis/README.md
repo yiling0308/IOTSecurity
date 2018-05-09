@@ -65,19 +65,20 @@
     sudo mv logstash-5.2.0/ /opt
     cd /opt 
     sudo mv logstash-5.2.0/ logstash 
-    
-</br>
 
     sudo apt-get install ant texinfo openjdk-8-jdk build-essential
     git clone https://github.com/jnr/jffi.git
     cd jffi
     ant jar
     sudo cp build/jni/libjffi-1.2.so /opt/logstash/vendor/jruby/lib/jni/arm-Linux
-    
-</br>
 
     cd /opt/logstash
     sudo vim config/jvm.options
+    
+### jvm.options設定黨內容
+    
+    -Xms512m
+    -Xmx512m
     
 ![logstash](image/jvmoptions.png)
 
