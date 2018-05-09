@@ -23,7 +23,7 @@
 ### 開啟網頁，在網頁輸入網址 `http://localhost:9200/`
 > ## 安裝[Kibana](https://www.elastic.co/downloads/kibana) (WINDOWS)
 ### 進行解壓縮後將資料夾名稱改為 `Kibana` 並放置在C:\Program Files內
-### 修改C:\Program Files\kibana\bin `kibana.yml` 檔
+### 修改C:\Program Files\kibana\config `kibana.yml` 檔
     server.host: "0.0.0.0"
 ![kibanayml](image/kibanayml.png)
 ### 執行C:\Program Files\kibana\bin `kibana.bat` 檔
