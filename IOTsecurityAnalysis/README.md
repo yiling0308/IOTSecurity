@@ -77,7 +77,7 @@
     cd /opt/logstash
     sudo vim config/jvm.options
     
-### jvm.options設定黨內容
+### jvm.options設定檔內容
 
     -Xms512m
     -Xmx512m
@@ -87,7 +87,7 @@
     cd /opt/logstash
     sudo vim apache-filter.conf
 
-### apache-filter.conf設定黨內容
+### apache-filter.conf設定檔內容
 
     input {
       file {
