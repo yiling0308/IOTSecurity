@@ -7,6 +7,5 @@
 ![elasticsearchsetyml](image/elasticsearchsetyml.png)
  ### 執行C:\Program Files\elasticsearch\bin\ `elasticsearch.bat` 檔
 ![batfile](image/elasticsearchbatfile.png)
- ### 開啟網頁，在網頁輸入以下網址
-        http://localhost:9200/
+ ### 開啟網頁，在網頁輸入網址 `http://localhost:9200/`
 ![localhost9200](image/localhost9200.png)
