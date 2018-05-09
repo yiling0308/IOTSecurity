@@ -64,26 +64,28 @@
     unzip logstash-5.2.0.zip
     sudo mv logstash-5.2.0/ /opt
     cd /opt 
-    sudo mv logstash-5.2.0/ logstash 
+    sudo mv logstash-5.2.0/ logstash
 
-    sudo apt-get install ant texinfo openjdk-8-jdk build-essential
+
+    sudo apt-get install ant texinfo openjdk-8-jdk build-essential
     git clone https://github.com/jnr/jffi.git
     cd jffi
     ant jar
     sudo cp build/jni/libjffi-1.2.so /opt/logstash/vendor/jruby/lib/jni/arm-Linux
 
-    cd /opt/logstash
+
+    cd /opt/logstash
     sudo vim config/jvm.options
     
 ### jvm.options設定黨內容
-    
+
     -Xms512m
     -Xmx512m
-    
+
 ![logstash](image/jvmoptions.png)
 
     cd /opt/logstash
-    sudo vim apache-filter.conf
+    sudo vim apache-filter.conf
 
 ### apache-filter.conf設定黨內容
 
@@ -92,7 +94,7 @@
         path => "/var/log/apache2/access.log"
         start_position => "beginning"
       }
-    }
+    }    
     filter {
       if [path] =~ "access" {
         mutate { replace => { "type" => "apache_access" } }
@@ -103,13 +105,13 @@
       date {
         match => [ "timestamp" , "dd/MMM/yyyy:HH:mm:ss Z" ]
       }
-    }
+    }    
     output {
       elasticsearch {
-        hosts => ["120.114.135.24:9200"]
+        hosts => ["192.168.2.62:9200"]
       }
       stdout { codec => rubydebug }
-    } 
+    }
 
 ![logstash](image/apache-filterconf.png)
 
