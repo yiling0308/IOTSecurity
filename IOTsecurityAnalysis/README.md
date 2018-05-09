@@ -108,7 +108,7 @@
     }    
     output {
       elasticsearch {
-        hosts => ["192.168.2.62:9200"]
+        hosts => ["120.114.135.24:9200"]
       }
       stdout { codec => rubydebug }
     }
