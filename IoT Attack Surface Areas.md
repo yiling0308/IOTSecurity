@@ -21,13 +21,13 @@
 >- Removal of storage media (移除儲存裝置)
 
 >> ## Device Web Interface (網路介面設備)
->- SQL injection
->- Cross-site scripting
->- Cross-site Request Forgery
->- Username enumeration
->- Weak passwords
->- Account lockout
->- Known default credentials
+>- SQL injection (SQL注入式攻擊、SQL資料隱碼攻擊)
+>- Cross-site scripting (跨網站指令碼)
+>- Cross-site Request Forgery (跨網站的偽造要求)
+>- Username enumeration (使用者名稱的獲取)
+>- Weak passwords (脆弱的密碼)
+>- Account lockout (帳戶鎖定)
+>- Known default credentials (預設驗證機密性資料)
 
 >> ## Device Firmware (韌體設備)
 >- Hardcoded credentials
