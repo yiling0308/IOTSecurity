@@ -40,7 +40,7 @@
 >- Information disclosure (資訊洩漏)
 >- User CLI (使用者命令列)
 >- Administrative CLI (管理命令列)
->- Injection (注入式攻擊、隱碼攻擊)
+>- Injection (注入式)
 >- Denial of Service (阻斷服務)
 >- Unencrypted Services (未加密的服務)
 >- Poorly implemented encryption (不佳的加密效果)
@@ -107,20 +107,20 @@
 >- Two-factor authentication (雙因素認證)
 
 >> ## Vendor Backend APIs (供應商後端APIs)
->- Inherent trust of cloud or mobile application
->- Weak authentication
->- Weak access controls
->- Injection attacks
+>- Inherent trust of cloud or mobile application (設備或雲端的絕對信任)
+>- Weak authentication (脆弱的認證機制)
+>- Weak access controls (脆弱的存取控制)
+>- Injection attacks (隱碼攻擊、注入式攻擊)
 
 >> ## Ecosystem Communication (生態傳播)
->- Health checks
->- Heartbeats
->- Ecosystem commands
->- Deprovisioning
->- Pushing updates
+>- Health checks (健康檢查)
+>- Heartbeats (心跳)
+>- Ecosystem commands (生態系統命令)
+>- Deprovisioning (取消供應)
+>- Pushing updates (推送更新)
 
 >> ## Network Traffic (網路交通)
->- LAN
->- LAN to Internet
->- Short range
->- Non-standard
+>- LAN (區域網)
+>- LAN to Internet (區域網到互聯網)
+>- Short range (短期的)
+>- Non-standard (非標準)
