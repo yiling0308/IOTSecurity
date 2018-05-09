@@ -1,16 +1,16 @@
 # The OWASP IoT Attack Surface Areas (DRAFT) are as follows:
 
 >> ## Ecosystem Access Control (生態系統存取控制)
->- Implicit trust between components
->- Enrollment security
->- Decommissioning system
->- Lost access procedures
+>- Implicit trust between components (組件之間的絕對信任)
+>- Enrollment security (登記安全)
+>- Decommissioning system (除役系統)
+>- Lost access procedures (失去訪問程序)
 
 >> ## Device Memory (記憶體設備)
->- Cleartext usernames
->- Cleartext passwords
->- Third-party credentials
->- Encryption keys
+>- Cleartext usernames (明文用戶名)
+>- Cleartext passwords (明文密碼)
+>- Third-party credentials (第三方憑證)
+>- Encryption keys (加密密鑰)
 
 >> ## Device Physical Interfaces (物理介面設備)
 >- Firmware extraction
