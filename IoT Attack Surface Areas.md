@@ -30,11 +30,11 @@
 >- Known default credentials (預設驗證機密性資料)
 
 >> ## Device Firmware (韌體設備)
->- Hardcoded credentials
->- Sensitive information disclosure
->- Sensitive URL disclosure
->- Encryption keys
->- Firmware version display and/or last update date
+>- Hardcoded credentials (硬式編碼憑證)
+>- Sensitive information disclosure (敏感資訊洩漏)
+>- Sensitive URL disclosure (敏感性網址)
+>- Encryption keys (加密密鑰)
+>- Firmware version display and/or last update date (韌體版本顯示/最後更新日期)
 
 >> ## Device Network Services (網路服務設備)
 >- Information disclosure
