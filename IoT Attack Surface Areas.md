@@ -37,18 +37,18 @@
 >- Firmware version display and/or last update date (韌體版本顯示/最後更新日期)
 
 >> ## Device Network Services (網路服務設備)
->- Information disclosure
->- User CLI
->- Administrative CLI
->- Injection
->- Denial of Service
->- Unencrypted Services
->- Poorly implemented encryption
->- Test/Development Services
->- Buffer Overflow
->- UPnP
->- Vulnerable UDP Services
->- DoS
+>- Information disclosure (資訊洩漏)
+>- User CLI (使用者命令列)
+>- Administrative CLI (管理命令列)
+>- Injection (注入式攻擊、隱碼攻擊)
+>- Denial of Service (阻斷服務)
+>- Unencrypted Services (未加密的服務)
+>- Poorly implemented encryption (不佳的加密效果)
+>- Test/Development Services (測試/開發服務)
+>- Buffer Overflow (緩衝區溢位)
+>- UPnP (通用即插即用)
+>- Vulnerable UDP Services (易受攻擊的用戶資料協定服務)
+>- DoS (磁碟作業系統)
 
 >> ## Administrative Interface (管理介面)
 >- SQL injection
