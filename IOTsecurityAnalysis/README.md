@@ -19,7 +19,8 @@
 ![elasticsearchmsi](image/elasticsearchmsi3.png)
 ![elasticsearchmsi](image/elasticsearchmsi4.png)
 ![elasticsearchmsi](image/elasticsearchmsi5.png)                                 
-
+### 執行C:\Program Files\Elastic\Elasticsearch\6.2.4\bin `elasticsearch.exe` 檔
+### 開啟網頁，在網頁輸入網址 `http://localhost:9200/`
 > ## 安裝[Kibana](https://www.elastic.co/downloads/kibana) (WINDOWS)
 ### 進行解壓縮後將資料夾名稱改為 `Kibana` 並放置在C:\Program Files內
 ### 修改C:\Program Files\kibana\bin `kibana.yml` 檔
