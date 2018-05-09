@@ -25,7 +25,7 @@
 > ## 安裝[Winlogbeat](https://www.elastic.co/downloads/beats/winlogbeat) (WINDOWS 64-BIT)
 ### 進行解壓縮後將資料夾名稱改為 `winlogbeat` 並放置在C:\Program Files內
 >> 使用powershell`(以系統管理員身分執行)`安裝
-![powershell](image/powershell.png)
+![powershell](image/powershell1.png)
 
     Set-ExecutionPolicy RemoteSigned (y)
     cd 'C:\Program Files\Winlogbeat'
