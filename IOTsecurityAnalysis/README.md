@@ -6,4 +6,6 @@
 
     network.host: 0.0.0.0
     
+![elasticsearchsetyml](image/elasticsearchsetyml.png)
 ### 執行C:\Program Files\elasticsearch\bin\elasticsearch.bat檔
+![batfile](image/elasticsearchbatfile.png)
