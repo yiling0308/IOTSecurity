@@ -83,11 +83,11 @@
 ![logstash](image/jvmoptions.png)
 
     cd /opt/logstash
-    sudo vim apache-filter.conf 
-    
+    sudo vim apache-filter.conf
+
 ### apache-filter.conf設定黨內容
-    
-    input {
+
+    input {
       file {
         path => "/var/log/apache2/access.log"
         start_position => "beginning"
@@ -109,12 +109,12 @@
         hosts => ["120.114.135.24:9200"]
       }
       stdout { codec => rubydebug }
-    }    
+    } 
 
 ![logstash](image/apache-filterconf.png)
 
     sudo bin/logstash -f apache-filter.conf
-    
+
 ![logstash](image/-fapache-filter.png) 
 ### 在網頁輸入網址 `http://120.114.135.24:9200/_search?q=DVWA` 
 ![logstash](image/searchDVWA9200.png) 
